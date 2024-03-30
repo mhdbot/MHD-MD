@@ -17,7 +17,7 @@ pastebin = new PastebinAPI("EMWTMkQAVfJa9kM-MRUrxd5Oku1U7pgL");
 cmd({
         pattern: "pastebin",
         desc: "To check paste",
-        category: "tool🛠",
+        category: "tool",
         filename: __filename,
     },
     async(Void, citel) => {
