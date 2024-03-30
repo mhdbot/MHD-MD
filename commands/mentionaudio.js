@@ -4,7 +4,7 @@ const axios = require('axios')
 var nicetitle = '𝐄𝐗𝐂𝐄𝐋 𝐀𝐌𝐀𝐃𝐈'
 var nicebody = "|| ◁ㅤ❚❚ㅤ▷||ㅤ ↻"
 var niceurl = 'https://github.com/Xcelsama/STAR-MD'
-const nicepic = 'https://i.ibb.co/chtrhzs/bat.gif';
+const nicepic = 'https://i.ibb.co/chtrhzs/bat.jpg';
 /*
 cmd({
     pattern: "mentionpreview",
