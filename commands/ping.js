@@ -14,7 +14,7 @@ const Secktor = require('../lib')
 Secktor.cmd({
         pattern: "ping",
         desc: "To check ping",
-        category: "tool",
+        category: "tools",
         filename: __filename,
     },
     async(Void, citel) => {
