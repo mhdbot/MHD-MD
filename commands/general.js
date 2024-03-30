@@ -71,11 +71,11 @@ cmd({
         filename: __filename,
     },
     async(Void, citel) => {
-        let { data } = await axios.get('https://api.github.com/repos/Xcelsama/BAT-MD')
+        let { data } = await axios.get('https://api.github.com/repos/EX-BOTS/BAT-MD')
         let cap = `Hey ${citel.pushName}\n
 *⭐ Total Stars:* ${data.stargazers_count} stars
 *🍽️ Forks:* ${data.forks_count} forks
-*🍁 Repo:* _https://github.com/Xcelsama/BAT-MD_
+*🍁 Repo:* _https://github.com/EX-BOTS/BAT-MD_
 *🔍 SCAN QR :- 
 \n\n*Visit More About Wa-Bot:-*
  _https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m_ \n*Please Support Wa-Channel*`
