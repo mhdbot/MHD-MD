@@ -16,7 +16,7 @@ cmd(
     pattern: "delttt",
     desc: "deletes TicTacToe running session.",
     filename: __filename,
-    category: "game🎮",
+    category: "game",
   },
   async (Void,citel,text,{isCreator}) => {
         if (!citel.isGroup) return citel.reply(tlang().group);
@@ -45,7 +45,7 @@ cmd(
     pattern: "ttt",
     desc: "Play TicTacToe",
     filename: __filename,
-    category: "game🎮",
+    category: "game",
   },
   async (Void,citel,text) => {
     if (!citel.isGroup) return citel.reply(tlang().group);
