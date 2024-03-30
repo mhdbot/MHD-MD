@@ -6,7 +6,7 @@ cmd({
 
             pattern: "hack",
 
-            category: "prank",
+            category: "fun",
 
             desc: "hacking prank",
 
@@ -22,7 +22,7 @@ citel.reply("```Injecting malware```")
 
 await sleep(1000)
 
-citel.reply("```hacking into device \n 0%```")
+citel.reply("```BAT-BOT ιѕ 𝐡𝐚𝐜𝐤𝐢𝐧𝐠 ɪɴᴛᴏ Ðêvï¢ê\n 0%```")
 
 await sleep(1000)
 
