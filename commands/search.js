@@ -165,7 +165,7 @@ cmd({
         for (let i = 0; i < parseInt(name2); i++) {
             let n = await gis(name1)
             let images = n[Math.floor(Math.random() * n.length)].url;
-            await Void.sendMessage(citel.chat, {image: {  url: images,}, caption: `_sᴛᴀʀ-ᴍᴅ⁹⁹⁹ ɪᴍᴀɢᴇ ᴅᴏᴡɴʟᴏᴅᴇʀ_\n*${name1}*`,}, { quoted: citel, });
+            await Void.sendMessage(citel.chat, {image: {  url: images,}, caption: `_ʙᴀᴛ-ɪᴍᴀɢᴇ ᴅᴏᴡɴʟᴏᴅᴇʀ_\n*${name1}*`,}, { quoted: citel, });
         }
     }
 )
