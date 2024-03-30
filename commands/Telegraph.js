@@ -15,7 +15,7 @@ const axios = require('axios');
 cmd({
         pattern: "paste",
         desc: "bat-bot creates paste of text on the bat-web.",
-        category: "tool",
+        category: "tools",
         filename: __filename,
     },
     async(Void, citel,text) => {
