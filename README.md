@@ -1,75 +1,31 @@
-``STAR-MD``
-
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Protest+Strike&size=25&duration=600&pause=600&color=BBFFFB&random=false&width=435&lines=+Hi++%E1%95%95(+%D5%9E+%E1%97%9C+%D5%9E+)%E1%95%97+I'm+STAR-MD................+;A+Multi-fuctional+WhatsApp+Bot;+++++BY+EXCEL+AMADI" alt="Typing SVG" /></a>  
 
 
-[`ℹ️IN CASE OF HELP CONCERNING DEPLOYMENT
-`](https://wa.me/+2347045035241)
-
-
-
-<p align="center">
-  <a href="https://wa.me/2347045035241">
-    <img alt="STAR-MD" height="300" src=https://i.imgur.com/D0ZPh8f.jpg">
-  </a>
-<h1 align="center"> 💫ՏፕᎪᎡ-ᎷᎠ💫
+##  
+[![BAT-MD](https://i.ibb.co/TRjdhyd/tumblr-na294unfma1rdzgejo1-500.gif)](https://wa.me/2347045035241)
+<h1 align="center"> 🦇BAT-MD🦇
 </p>
-      <p align="center">
-  <a href="https://wa.me//+2347045035241" target="_blank">
-    <img alt="whatsapp" src="https://img.shields.io/badge/ Whatsapp -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-  </a>
-  <a aria-label="STAR-MD is free to use" href="https://chat.whatsapp.com/FdwbFnI8Fcf4VTVvFTFk08" "target="_blank"><img alt='Whatsapp' src='https://img.shields.io/badge/OFFICIAL-GC-h?color=black&style=for-the-badge&logo=whatsapp' width="96.35" height="28"/></a></p>
-
-   
- 
-<p align="center">
-<a href='https://chat.whatsapp.com/FdwbFnI8Fcf4VTVvFTFk08' 
-  <a aria-label="Join our chats" href="https://chat.whatsapp.com/FdwbFnI8Fcf4VTVvFTFk08" target="_blank">
-
-   <img alt="whatsapp" src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<img alt="whatsapp" src="https://img.shields.io/badge/Bot%20Whatsapp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-
-  <a
- href="https://wa.me//+2347045035241"></a>
-</p>
-
-  </a>
-
-
-
- </a>
-   <a aria-label="Excel-MdV2 is free to use" href="https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X" target="_blank">
- <p align="center"><img src="https://profile-counter.glitch.me/{xcelsama}/count.svg" alt="xcelsama:: Visitor's Count" /></p>
-
-
-
- 
-  [`ℹ️Contact Owner`](https://wa.me/+2347045035241)
-
-
- [`📡Credits`](https://github.com/excelottah6)
-## 💫𝐒𝐄𝐓 𝐔𝐏 𝐅𝐎𝐑 𝐒𝐓𝐀𝐑-𝐌𝐃💫
-
-➤FORK THE REPOSITORY (Repo) 
-    <br>
-<a href="https://github.com/Xcelsama/STAR-MD/fork"><img title="STAR" src="https://img.shields.io/badge/FORK STAR-MD?color=black&style=for-the-badge&logo=stackshare"></a>
-
-
-➤  GET SESSION  ID FOR  ⭐STAR-MD⭐
-  
   
 
-<a href="https://r.mtdv.me/EXCEL-MDX"><img src="https://play-lh.googleusercontent.com/901aMQFFnVoX2T-YuJmTIwpPve_SUgMv_QSyzMSPtAqt_l0CyXN1DxfD6xXU0r2f9iM=w240-h480-rw" width="70" /></a>
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
-<a href='https://star-md-qrx-219e89515d5e.herokuapp.com/' target="_blank"><img alt='SCAN QR-01' src='https://img.shields.io/badge/Scan_qr-01-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=red&color=black'/></a>
+ ## 🛠️ `Installation Procedure`
 
-<a href='https://star-md-qr-web-xcelsama-e29e85286f3a.herokuapp.com/' target="_blank"><img alt='SCAN QR-02' src='https://img.shields.io/badge/Scan_qr-02-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=blue'/></a>
 
-<a href='https://replit.com/@HopeAmadi/EXCEL-MD-QR-SCAN-1?v=1/fork' target="_blank"><img alt='SCAN QR-3' src='https://img.shields.io/badge/Scan_qr-03-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=blue'/></a>
- 
-<a href='https://star-md-qr-excel-64001a3963c7.herokuapp.com/' target="_blank"><img alt='SCAN QR-2' src='https://img.shields.io/badge/Scan_qr-03-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=blue'/></a>
+❏FORK THE REPOSITORY 
+  <a href="https://github.com/EX-BOTS/BAT-MD/fork" target="_blank">
+  <img src="https://img.shields.io/badge/FORK BAT-black?style=for-the-badge&logo=render" alt="Authenticate With WhatsApp" width="170" height="34">
+</a>
 
-<a href='https://star-qr-web-02-905f5080602c.herokuapp.com/' target="_blank"><img alt='SCAN QR-2' src='https://img.shields.io/badge/Scan_qr-04-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=blue'/></a>
+
+
+
+❏GET SESSION ID 
+(SCAN-QR)           
+ <a href="https://r.mtdv.me/EXCEL-MDX"><img src="https://play-lh.googleusercontent.com/901aMQFFnVoX2T-YuJmTIwpPve_SUgMv_QSyzMSPtAqt_l0CyXN1DxfD6xXU0r2f9iM=w240-h480-rw" width="70" /></a>
+
+<a href="https://bat-bot-qr-34b45414eefe.herokuapp.com/" target="_blank">
+  <img src="https://img.shields.io/badge/SESSION ID-black?style=for-the-badge&logo=render" alt="Authenticate With WhatsApp" width="170" height="34">
+</a>
 
 
 𖣘ᎠᎬᏢᏞϴᎽᎷᎬΝͲ ᎷᎬͲᎻϴᎠՏ𖣘
@@ -95,7 +51,7 @@ If You don't have a account in replit. Create a account.
 
 Now Deploy
     <br>
-<a href="https://replit.com/@HopeAmadi/STAR-MD?s=app" target="_blank"><img alt="DEPLOY" src="https://img.shields.io/badge/DEPLOY-black?color=black&style=for-the-badge&logo=Replit" width="96.35" height="28"></a>
+<a href="https://replit.com/@HopeAmadi/BAT-MD?s=app" target="_blank"><img alt="DEPLOY" src="https://img.shields.io/badge/DEPLOY-black?color=black&style=for-the-badge&logo=Replit" width="96.35" height="28"></a>
 
 ❍ᗪᗴᑭᒪOY Oᑎ ᕼᗴᖇOKᑌ
 
@@ -106,22 +62,18 @@ If You don't have a account in Heroku. Create a account.
   Now Deploy
     <br>
 
-<a href='https://dashboard.heroku.com/new?template=https://github.com/Xcelsama/STAR-MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/>
+<a href='https://dashboard.heroku.com/new?template=https://github.com/EX-BOTS/BAT-MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/>
 
 
-[`📡Credits`](https://telegra.ph/STAR-MD-Bot-02-26-2)
-
-*******************************************
-🇴 🇼 🇳 🇪 🇷  🇮 🇳 🇫  🇴 
- 
-[![EXCEL](https://i.imgur.com/4Z8BDHx.png)](https://wa.me/2347045035241)
 
 
-<img src="https://i.imgur.com/FX2S9eI.jpg" alt="Image"> 
 
 
-<h1 align="center"> ⭐STAR-MD ⭐
-</p></p>
 
-Excel ©2024
 
+
+
+ [![BAT-MD](https://i.ibb.co/ssWTfH4/89c8d44eae2dd5f00cd18989c95387096bcf64e8.gif)](https://wa.me/2347045035241)
+<h1 align="center"> ©Ex-bots 2024
+</p>
+  
