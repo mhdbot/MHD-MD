@@ -1,7 +1,7 @@
 {
   "name": "BAT-MD",
   "description": "A Whatsapp md bot built by Excel to make experience better",
-  "logo": "https://i.ibb.co/TRjdhyd/tumblr-na294unfma1rdzgejo1-500.gif",
+  "logo":https://i.ibb.co/TRjdhyd/tumblr-na294unfma1rdzgejo1-500.gif",
   "keywords": ["nodejs", "bot", "whatsapp bot", "STAR", "STAR Bot", "STAR","STAR-MD","themes bot","multi device","baileys","Excel"],
   "success_url": "/",
   "stack": "container",
