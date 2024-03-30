@@ -16,7 +16,7 @@
  cmd({
          pattern: "bass",
          desc: "adds bass in given sound",
-         category: "audio",
+         category: "tools",
          use: '<reply to any audio>',
          react:"✅",
      },
@@ -51,7 +51,7 @@
  cmd({
          pattern: "blown",
          desc: "adds blown in given audio",
-         category: "audio",
+         category: "tools",
          use: '<reply to any audio>',
          react:"✅",
      },
@@ -86,7 +86,7 @@
  cmd({
          pattern: "deep",
          desc: "adds deep effect in given audio",
-         category: "audio",
+         category: "tools",
          use: '<reply to any audio>',
          react:"✅",
      },
@@ -121,7 +121,7 @@
  cmd({
          pattern: "fast",
          desc: "Adds fast(equilizer) in quoted audio.",
-         category: "audio",
+         category: "tools",
          use: '<reply to any audio>',
          react:"✅",
      },
@@ -154,7 +154,7 @@
  )
  //---------------------------------------------------------------------------
  cmd({
-         pattern: "reverse",
+         pattern: "tools",
          desc: "Adds reverse(equilizer) in quoted audio.",
          category: "audio",
          use: '<reply to any audio>',
