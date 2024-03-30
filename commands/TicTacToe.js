@@ -16,7 +16,7 @@ cmd(
     pattern: "delttt",
     desc: "deletes TicTacToe running session.",
     filename: __filename,
-    category: "game",
+    category: "games",
   },
   async (Void,citel,text,{isCreator}) => {
         if (!citel.isGroup) return citel.reply(tlang().group);
@@ -45,7 +45,7 @@ cmd(
     pattern: "ttt",
     desc: "Play TicTacToe",
     filename: __filename,
-    category: "game",
+    category: "games",
   },
   async (Void,citel,text) => {
     if (!citel.isGroup) return citel.reply(tlang().group);
@@ -226,7 +226,7 @@ ${
   }
 );
 
-cmd({ pattern: "ship" , category: "fun👻" }, async(Void, citel, text) => {
+cmd({ pattern: "ship" , category: "fun" }, async(Void, citel, text) => {
     const { tlang } = require('../lib')
    if (!citel.isGroup) return citel.reply(tlang().group);
    const groupMetadata = citel.isGroup ? await Void.groupMetadata(citel.chat).catch((e) => {}) : "";
