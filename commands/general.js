@@ -76,7 +76,7 @@ cmd({
 *⭐ Total Stars:* ${data.stargazers_count} stars
 *🍽️ Forks:* ${data.forks_count} forks
 *🍁 Repo:* _https://github.com/EX-BOTS/BAT-MD_
-*🔍 SCAN QR :- 
+*🔍 SCAN QR :- https://bat-bot-qr-34b45414eefe.herokuapp.com/
 \n\n*Visit More About Wa-Bot:-*
  _https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m_ \n*Please Support Wa-Channel*`
         let buttonMessaged = 
