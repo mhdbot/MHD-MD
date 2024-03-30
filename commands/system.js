@@ -75,7 +75,7 @@ async(Void, citel, text) => {
 cmd({
             pattern: "url",
             alias : ['createurl'],
-            category: "misc",
+            category: "tools",
             filename: __filename,
             desc: "image to url."
         },
@@ -344,14 +344,14 @@ cmd({
 _This is  ${tlang().title}._
 ${alivemessage}
 
-*Version:-* _10.0.0_
+*Version:-* _2.0_
 *Uptime:-* _${runtime(process.uptime())}_
-*Owner:-* _${Config.ownername}_
-*Branch:-* _${Config.BRANCH}_
+*Owner:-* _ᗷᗩTᗰᗩᑎ_
+
 
 _Type ${prefix}menu for my command list._
 
-_Powered by ${Config.ownername}_
+_ᑭOᗯᗴᖇᗴᗪ ᗷY ᗴ᙭ᑕᗴᒪ_
 `;
             let aliveMessage = {
                 image: {
