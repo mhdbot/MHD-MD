@@ -162,7 +162,7 @@ async(Void, citel, text,{ isCreator }) => {
  cmd({
              pattern: "wm",
              desc: "Makes wa me of quoted or mentioned user.",
-             category: "misc",
+             category: "tool",
              filename: __filename,
          },
          async(Void, citel, text) => {
