@@ -18,79 +18,79 @@
  const maker = require('mumaker')
  let cap = `*_GENERATE BY STAR-MD_*`
      //---------------------------------------------------------------------------
- cmd({ pattern: "deepsea", category: "textpro", desc: "Some text to image feature with various styles." }, async(Void, citel, text) => {
+ cmd({ pattern: "deepsea", category: "logo-maker", desc: "Some text to image feature with various styles." }, async(Void, citel, text) => {
          if (!text) return citel.reply('_Need text._')
          let anu = await maker.textpro('https://textpro.me/create-3d-deep-sea-metal-text-effect-online-1053.html', text)
          Void.sendMessage(citel.chat, { image: { url: anu.image }, caption: cap }, { quoted: citel })
      })
      //---------------------------------------------------------------------------
- cmd({ pattern: "horror", category: "textpro", desc: "Some text to image feature with various styles." }, async(Void, citel, text) => {
+ cmd({ pattern: "horror", category: "logo-maker", desc: "Some text to image feature with various styles." }, async(Void, citel, text) => {
          if (!text) return citel.reply('_Need text._')
          let anu = await maker.textpro('https://textpro.me/horror-blood-text-effect-online-883.html', text)
          Void.sendMessage(citel.chat, { image: { url: anu.image }, caption: cap }, { quoted: citel })
      })
      //---------------------------------------------------------------------------
- cmd({ pattern: "whitebear", category: "textpro", desc: "Some text to image feature with various styles." }, async(Void, citel, text) => {
+ cmd({ pattern: "whitebear", category: "logo-maker", desc: "Some text to image feature with various styles." }, async(Void, citel, text) => {
          if (!text) return citel.reply('_Need text._')
          let anu = await maker.textpro('https://textpro.me/online-black-and-white-bear-mascot-logo-creation-1012.html', text)
          Void.sendMessage(citel.chat, { image: { url: anu.image }, caption: cap }, { quoted: citel })
      })
      //---------------------------------------------------------------------------
- cmd({ pattern: "joker", category: "textpro", desc: "Some text to image feature with various styles." }, async(Void, citel, text) => {
+ cmd({ pattern: "joker", category: "logo-maker", desc: "Some text to image feature with various styles." }, async(Void, citel, text) => {
          if (!text) return citel.reply('_Need text._')
          let anu = await maker.textpro('https://textpro.me/create-logo-joker-online-934.html', text)
          Void.sendMessage(citel.chat, { image: { url: anu.image }, caption: cap }, { quoted: citel })
      })
      //---------------------------------------------------------------------------
- cmd({ pattern: "metallic", category: "textpro", desc: "Some text to image feature with various styles." }, async(Void, citel, text) => {
+ cmd({ pattern: "metallic", category: "logo-maker", desc: "Some text to image feature with various styles." }, async(Void, citel, text) => {
          if (!text) return citel.reply('_Need text._')
          let anu = await maker.textpro('https://textpro.me/create-a-metallic-text-effect-free-online-1041.html', text)
          Void.sendMessage(citel.chat, { image: { url: anu.image }, caption: cap }, { quoted: citel })
      })
      //---------------------------------------------------------------------------
- cmd({ pattern: "steel", category: "textpro", desc: "Some text to image feature with various styles." }, async(Void, citel, text) => {
+ cmd({ pattern: "steel", category: "logo-maker", desc: "Some text to image feature with various styles." }, async(Void, citel, text) => {
          if (!text) return citel.reply('_Need text._')
          let anu = await maker.textpro('https://textpro.me/steel-text-effect-online-921.html', text)
          Void.sendMessage(citel.chat, { image: { url: anu.image }, caption: cap }, { quoted: citel })
      })
      //---------------------------------------------------------------------------
- cmd({ pattern: "harrypotter", category: "textpro", desc: "Some text to image feature with various styles." }, async(Void, citel, text) => {
+ cmd({ pattern: "harrypotter", category: "logo-maker", desc: "Some text to image feature with various styles." }, async(Void, citel, text) => {
          if (!text) return citel.reply('_Need text._')
          let anu = await maker.textpro('https://textpro.me/create-harry-potter-text-effect-online-1025.html', text)
          Void.sendMessage(citel.chat, { image: { url: anu.image }, caption: cap }, { quoted: citel })
      })
      //---------------------------------------------------------------------------
- cmd({ pattern: "underwater", category: "textpro", desc: "Some text to image feature with various styles." }, async(Void, citel, text) => {
+ cmd({ pattern: "underwater", category: "logo-maker", desc: "Some text to image feature with various styles." }, async(Void, citel, text) => {
          if (!text) return citel.reply('_Need text._')
          let anu = await maker.textpro('https://textpro.me/3d-underwater-text-effect-generator-online-1013.html', text)
          Void.sendMessage(citel.chat, { image: { url: anu.image }, caption: cap }, { quoted: citel })
      })
      //---------------------------------------------------------------------------
- cmd({ pattern: "luxury", category: "textpro", desc: "Some text to image feature with various styles." }, async(Void, citel, text) => {
+ cmd({ pattern: "luxury", category: "logo-maker", desc: "Some text to image feature with various styles." }, async(Void, citel, text) => {
          if (!text) return citel.reply('_Need text._')
          let anu = await maker.textpro('https://textpro.me/3d-luxury-gold-text-effect-online-1003.html', text)
          Void.sendMessage(citel.chat, { image: { url: anu.image }, caption: cap }, { quoted: citel })
      })
      //---------------------------------------------------------------------------
- cmd({ pattern: "glue", category: "textpro", desc: "Some text to image feature with various styles." }, async(Void, citel, text) => {
+ cmd({ pattern: "glue", category: "logo-maker", desc: "Some text to image feature with various styles." }, async(Void, citel, text) => {
          if (!text) return citel.reply('_Need text._')
          let anu = await maker.textpro('https://textpro.me/create-3d-glue-text-effect-with-realistic-style-986.html', text)
          Void.sendMessage(citel.chat, { image: { url: anu.image }, caption: cap }, { quoted: citel })
      })
      //---------------------------------------------------------------------------
- cmd({ pattern: "fabric", category: "textpro", desc: "Some text to image feature with various styles." }, async(Void, citel, text) => {
+ cmd({ pattern: "fabric", category: "logo-maker", desc: "Some text to image feature with various styles." }, async(Void, citel, text) => {
          if (!text) return citel.reply('_Need text._')
          let anu = await maker.textpro('https://textpro.me/fabric-text-effect-online-964.html', text)
          Void.sendMessage(citel.chat, { image: { url: anu.image }, caption: cap }, { quoted: citel })
      })
      //---------------------------------------------------------------------------
- cmd({ pattern: "toxic", category: "textpro", desc: "Some text to image feature with various styles." }, async(Void, citel, text) => {
+ cmd({ pattern: "toxic", category: "logo-maker", desc: "Some text to image feature with various styles." }, async(Void, citel, text) => {
          if (!text) return citel.reply('_Need text._')
          let anu = await maker.textpro('https://textpro.me/toxic-text-effect-online-901.html', text)
          Void.sendMessage(citel.chat, { image: { url: anu.image }, caption: cap }, { quoted: citel })
      })
      //---------------------------------------------------------------------------
- cmd({ pattern: "ancient", category: "textpro", desc: "Some text to image feature with various styles." }, async(Void, citel, text) => {
+ cmd({ pattern: "ancient", category: "logo-maker", desc: "Some text to image feature with various styles." }, async(Void, citel, text) => {
          if (!text) return citel.reply('_Need text._')
          let anu = await maker.textpro('https://textpro.me/3d-golden-ancient-text-effect-online-free-1060.html', text)
          Void.sendMessage(citel.chat, { image: { url: anu.image }, caption: cap }, { quoted: citel })
@@ -98,7 +98,7 @@
      //---------------------------------------------------------------------------
  cmd({
              pattern: "cloud",
-             category: "textpro",
+             category: "logo-maker",
              desc: "Some text to image feature with various styles."
          },
          async(Void, citel, text) => {
@@ -117,7 +117,7 @@
      //---------------------------------------------------------------------------
  cmd({
              pattern: "transformer",
-             category: "textpro",
+             category: "logo-maker",
              desc: "Some text to image feature with various styles."
          },
          async(Void, citel, text) => {
@@ -136,7 +136,7 @@
      //---------------------------------------------------------------------------
  cmd({
              pattern: "thunder",
-             category: "textpro",
+             category: "logo-maker",
              desc: "Some text to image feature with various styles."
          },
          async(Void, citel, text) => {
@@ -155,7 +155,7 @@
      //---------------------------------------------------------------------------
  cmd({
              pattern: "scifi",
-             category: "textpro",
+             category: "logo-maker",
              desc: "Some text to image feature with various styles."
          },
          async(Void, citel, text) => {
@@ -174,7 +174,7 @@
      //---------------------------------------------------------------------------
  cmd({
              pattern: "sand",
-             category: "textpro",
+             category: "logo-maker",
              desc: "Some text to image feature with various styles."
          },
          async(Void, citel, text) => {
@@ -193,7 +193,7 @@
      //---------------------------------------------------------------------------
  cmd({
              pattern: "rainbow",
-             category: "textpro",
+             category: "logo-maker",
              desc: "Some text to image feature with various styles."
          },
          async(Void, citel, text) => {
@@ -212,7 +212,7 @@
      //---------------------------------------------------------------------------
  cmd({
              pattern: "pencil",
-             category: "textpro",
+             category: "logo-maker",
              desc: "Some text to image feature with various styles."
          },
          async(Void, citel, text) => {
@@ -231,7 +231,7 @@
      //---------------------------------------------------------------------------
  cmd({
              pattern: "neon",
-             category: "textpro",
+             category: "logo-maker",
              desc: "Some text to image feature with various styles."
          },
          async(Void, citel, text) => {
@@ -250,7 +250,7 @@
      //---------------------------------------------------------------------------
  cmd({
              pattern: "magma",
-             category: "textpro",
+             category: "logo-maker",
              desc: "Some text to image feature with various styles."
          },
          async(Void, citel, text) => {
@@ -269,7 +269,7 @@
      //---------------------------------------------------------------------------
  cmd({
              pattern: "leaves",
-             category: "textpro",
+             category: "logo-maker",
              desc: "Some text to image feature with various styles."
          },
          async(Void, citel, text) => {
@@ -288,7 +288,7 @@
      //---------------------------------------------------------------------------
  cmd({
              pattern: "glitch",
-             category: "textpro",
+             category: "logo-maker",
              desc: "Some text to image feature with various styles."
          },
          async(Void, citel, text) => {
@@ -307,7 +307,7 @@
      //---------------------------------------------------------------------------
  cmd({
              pattern: "discovery",
-             category: "textpro",
+             category: "logo-maker",
              desc: "Some text to image feature with various styles."
          },
          async(Void, citel, text) => {
@@ -326,7 +326,7 @@
      //---------------------------------------------------------------------------
  cmd({
              pattern: "christmas",
-             category: "textpro",
+             category: "logo-maker",
              desc: "Some text to image feature with various styles."
          },
          async(Void, citel, text) => {
@@ -345,7 +345,7 @@
      //---------------------------------------------------------------------------
  cmd({
              pattern: "candy",
-             category: "textpro",
+             category: "logo-maker",
              desc: "Some text to image feature with various styles."
          },
          async(Void, citel, text) => {
@@ -364,7 +364,7 @@
      //---------------------------------------------------------------------------
  cmd({
              pattern: "1917",
-             category: "textpro",
+             category: "logo-maker",
              desc: "Some text to image feature with various styles."
          },
          async(Void, citel, text) => {
@@ -383,7 +383,7 @@
      //---------------------------------------------------------------------------
  cmd({
          pattern: "blackpink",
-         category: "textpro",
+         category: "logo-maker",
          desc: "Some text to image feature with various styles."
      },
      async(Void, citel, text) => {
