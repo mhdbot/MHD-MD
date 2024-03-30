@@ -1,16 +1,15 @@
 /**
-                                                            
  Copyright (C) 2022.
  Licensed under the  GPL-3.0 License;
  You may not use this file except in compliance with the License.
  It is supplied in the hope that it may be useful.
- * @project_name : Secktor-Md
- * @author : SamPandey001 <https://github.com/SamPandey001>
- * @description : Secktor,A Multi-functional whatsapp bot.
+ * @project_name : BAT-MD By Xcelsama
+ * @author : Xcelsama
+ * @description : bat Bot ,A Multi-functional whatsapp bot.
  * @version 0.0.6
  **/
 
- const { tlang, getAdmin, prefix, Config, sck, fetchJson, runtime,cmd,getBuffer } = require('../lib')
+ const { tlang, getAdmin, prefix, Config, sck, fetchJson, runtime,cmd } = require('../lib')
  let { dBinary, eBinary } = require("../lib/binary");
 const { Sticker, createSticker, StickerTypes } = require("wa-sticker-formatter");
  const fs = require('fs')
@@ -29,14 +28,12 @@ async(Void, citel, text,{ isCreator }) => {
                 return citel.reply('Welcome added added for this group.')
             } else {
                 await await sck.updateOne({ id: citel.chat }, { welcome:text ,events:'true'})
-                return citel.reply('Welcome msg has been updated successfully.')
-
+                return citel.reply('Welcome updated successfully.')
+                
             }      
 }
 )
  //---------------------------------------------------------------------------
-
-//---------------------------------------------------------------------------
 cmd({
     pattern: "setgoodbye",
     desc: "sets goodbye message in specific group.",
@@ -50,43 +47,11 @@ async(Void, citel, text,{ isCreator }) => {
                 return citel.reply('Goodbye added for this group.');
             } else {
                 await await sck.updateOne({ id: citel.chat }, { goodbye:text,events:'true' })
-                return citel.reply('Goodbye msg has been updated successfully.');     
+                return citel.reply('Goodbye updated successfully.');     
             }      
 }
 )
  //---------------------------------------------------------------------------
-cmd({
-  pattern: "save",
-  desc: "Save status.",
-  category: "misc",
-}, async (Void, citel, text) => {
-  if (!citel.quoted || !citel.quoted.hasMedia) return;
-
-  try {
-    const statusObj = await Void.getStatus(citel.chat);
-
-    if (!statusObj) {
-      return citel.reply("No status available to save.");
-    }
-
-    if (statusObj.mediaMessage.imageMessage) {
-      const caption = statusObj.mediaMessage.imageMessage.caption;
-      const mediaUrl = await Void.downloadMediaMessage(statusObj.mediaMessage);
-      return citel.reply(`Status saved!`, { image: { url: mediaUrl }, caption });
-    } else if (statusObj.mediaMessage.videoMessage) {
-      const caption = statusObj.mediaMessage.videoMessage.caption;
-      const mediaUrl = await Void.downloadMediaMessage(statusObj.mediaMessage);
-      return citel.reply(`Status saved!`, { video: { url: mediaUrl }, caption });
-    } else {
-      return citel.reply("Unsupported status type.");
-    }
-  } catch (error) {
-    console.error(error);
-    citel.reply("Error saving status.");
-  }
-});
-
-//---------------------------------------------------------------------------
  cmd({
              pattern: "attp",
              desc: "Makes glowing sticker of text.",
@@ -94,19 +59,14 @@ cmd({
              filename: __filename,
          },
          async(Void, citel, text) => {
-let a = await getBuffer(`https://vihangayt.me/maker/text2gif?q=${text}`)
- return citel.reply(a,{packname:'IZUKU',author:'ATTP'},"sticker") 
-         }
-     )
- cmd({
-             pattern: "ttp",
-             desc: "Makes static sticker of text.",
-             category: "sticker",
-             filename: __filename,
-         },
-         async(Void, citel, text) => {
-let a = await getBuffer(`https://vihangayt.me/maker/text2img?q=${text}`)
- return citel.reply(a,{packname:'𝐒𝐓𝐀𝐑',author:'TTP'},"sticker") 
+             Void.sendMessage(citel.chat, {
+                 sticker: {
+                     url: `https://api.xteam.xyz/attp?file&text=${encodeURI(text)}`
+                 }
+             }, {
+                 quoted: citel
+             })
+ 
          }
      )
      //---------------------------------------------------------------------------
@@ -131,7 +91,7 @@ let a = await getBuffer(`https://vihangayt.me/maker/text2img?q=${text}`)
                      method: "POST",
                      json: code
                  }, function(_error, _response, body) {
-                    return citel.reply("> " + text[1] + "\n\n" + "```" + body.output + "```");
+                     citel.reply("> " + text[1] + "\n\n" + "```" + body.output + "```");
                  });
              } catch (error) {
                  console.log(error);
@@ -146,8 +106,8 @@ let a = await getBuffer(`https://vihangayt.me/maker/text2img?q=${text}`)
              filename: __filename,
          },
          async(Void, citel, text) => {
-            return await citel.reply(text.replace(/\+/g, (String.fromCharCode(8206)).repeat(4001)))
-
+             await citel.reply(text.replace(/\+/g, (String.fromCharCode(8206)).repeat(4001)))
+ 
          }
      )
      //---------------------------------------------------------------------------
@@ -158,17 +118,17 @@ let a = await getBuffer(`https://vihangayt.me/maker/text2img?q=${text}`)
              filename: __filename,
          },
          async(Void, citel, text) => {
-             if (!citel.quoted) return citel.reply(`*Mention the Image or video Sir.*`);
+             if (!citel.quoted) return citel.reply(`*Mention any Image or video Sir.*`);
              let mime = citel.quoted.mtype
              var pack;
              var author;
              if (text) {
                  anu = text.split("|");
-                 pack = anu[0] !== "" ? anu[0] : citel.pushName + '✨';
-                 author = anu[1] !== "" ? anu[1] : Config.author;
+                 pack= global.packname;
+                 author= global.author;
              } else {
-                 pack = citel.pushName;
-                 author = "✨";
+                     pack= global.packname;
+                     author= global.author;
              }
                  let media = await citel.quoted.download();
                  citel.reply("*Processing Your request*");
@@ -195,20 +155,20 @@ let a = await getBuffer(`https://vihangayt.me/maker/text2img?q=${text}`)
          },
          async(Void, citel, text) => {
              const upt = runtime(process.uptime())
-             return citel.reply(`Uptime of ${tlang().title}: ${upt}`)
+             citel.reply(`Uptime of ${tlang().title}: ${upt}`)
          }
      )
      //---------------------------------------------------------------------------
  cmd({
              pattern: "wm",
-             desc: "Makes wa.me of quoted or mentioned user.",
+             desc: "Makes wa me of quoted or mentioned user.",
              category: "misc",
              filename: __filename,
          },
          async(Void, citel, text) => {
              let users = citel.mentionedJid ? citel.mentionedJid[0].split('@')[0] : citel.quoted ? citel.quoted.sender.split('@')[0] : text.replace('@')[0]
-            return citel.reply(`https://wa.me/${users}`)
-
+             citel.reply(`https://wa.me/${users}`)
+ 
          }
      )
      //---------------------------------------------------------------------------
@@ -236,8 +196,41 @@ let a = await getBuffer(`https://vihangayt.me/maker/text2img?q=${text}`)
      )
      //---------------------------------------------------------------------------
  cmd({
+             pattern: "nsfw",
+             desc: "activates and deactivates nsfw.\nuse buttons to toggle.",
+             category: "misc",
+             filename: __filename,
+         },
+         async(Void, citel, text) => {
+             if (!citel.isGroup) return citel.reply(tlang().group);
+             const groupAdmins = await getAdmin(Void, citel)
+             const botNumber = await Void.decodeJid(Void.user.id)
+             const isBotAdmins = citel.isGroup ? groupAdmins.includes(botNumber) : false;
+             const isAdmins = citel.isGroup ? groupAdmins.includes(citel.sender) : false;
+             if (!isAdmins) return citel.reply(tlang().admin)
+             if (!isBotAdmins) return citel.reply(tlang().botadmin)
+             let buttons = [{
+                     buttonId: `${prefix}act nsfw`,
+                     buttonText: {
+                         displayText: "Turn On",
+                     },
+                     type: 1,
+                 },
+                 {
+                     buttonId: `${prefix}deact nsfw`,
+                     buttonText: {
+                         displayText: "Turn Off",
+                     },
+                     type: 1,
+                 },
+             ];
+             await Void.sendButtonText(citel.chat, buttons, `Activate nsfw:18+ commands`, Void.user.name, citel);
+         }
+     )
+     //---------------------------------------------------------------------------
+ cmd({
              pattern: "npm",
-             desc: "search  npm packages from their name .",
+             desc: "download mp4 from url.",
              category: "search",
              use: '<package name>',
              filename: __filename,
@@ -262,7 +255,7 @@ let a = await getBuffer(`https://vihangayt.me/maker/text2img?q=${text}`)
              if (!text) return citel.reply(`Example : ${prefix}fliptext Back in black`)
              flipe = text.split('').reverse().join('')
              citel.reply(`\`\`\`「  Text Flipper Tool  」\`\`\`\n*IGiven text :*\n${text}\n*Fliped text :*\n${flipe}`)
-
+ 
          }
      )
      //---------------------------------------------------------------------------
@@ -293,11 +286,43 @@ let a = await getBuffer(`https://vihangayt.me/maker/text2img?q=${text}`)
              }, {
                  quoted: citel,
              });
-
+ 
          }
      )
      //---------------------------------------------------------------------------
-
+ cmd({
+             pattern: "events",
+             desc: "activates and deactivates events.\nuse buttons to toggle.",
+             category: "misc",
+             filename: __filename,
+         },
+         async(Void, citel, text) => {
+             if (!citel.isGroup) return citel.reply(tlang().group);
+             const groupAdmins = await getAdmin(Void, citel)
+             const botNumber = await Void.decodeJid(Void.user.id)
+             const isBotAdmins = citel.isGroup ? groupAdmins.includes(botNumber) : false;
+             const isAdmins = citel.isGroup ? groupAdmins.includes(citel.sender) : false;
+             if (!isAdmins) return citel.reply(tlang().admin)
+             if (!isBotAdmins) return citel.reply(tlang().botadmin)
+             let buttons = [{
+                     buttonId: `${prefix}act events`,
+                     buttonText: {
+                         displayText: "Turn On",
+                     },
+                     type: 1,
+                 },
+                 {
+                     buttonId: `${prefix}deact events`,
+                     buttonText: {
+                         displayText: "Turn Off",
+                     },
+                     type: 1,
+                 },
+             ];
+             await Void.sendButtonText(citel.chat, buttons, `Activate Events:Welcome & goodbye`, Void.user.name, citel);
+         }
+     )
+     //---------------------------------------------------------------------------
  cmd({
              pattern: "emix",
              desc: "Mixes two emojies.",
@@ -337,7 +362,7 @@ let a = await getBuffer(`https://vihangayt.me/maker/text2img?q=${text}`)
                          await new chatbot({ id: 'chatbot', worktype: "true" }).save()
                          return citel.reply('Chatbot activated successfully.')
                      } else {
-                         if (chatbott.worktype == "true") return citel.reply("Chatbot has already been enabled.")
+                         if (chatbott.worktype == "true") return citel.reply("Chatbot was already enabled.")
                          await chatbot.updateOne({ id: 'chatbot' }, { worktype: "true" })
                          citel.reply('Enabled chatbot successfully.')
                          return
@@ -351,7 +376,7 @@ let a = await getBuffer(`https://vihangayt.me/maker/text2img?q=${text}`)
                          await new chatbot({ id: 'chatbot', worktype: "false" }).save()
                          return citel.reply('Chatbot deactivated successfully.')
                      } else {
-                         if (chatbott.worktype == "false") return citel.reply("Chatbot has  already been disabled.")
+                         if (chatbott.worktype == "false") return citel.reply("Chatbot was already disabled.")
                          await chatbot.updateOne({ id: 'chatbot' }, { worktype: "false" })
                          citel.reply('Disabled chatbot successfully.')
                          return
@@ -376,12 +401,11 @@ let a = await getBuffer(`https://vihangayt.me/maker/text2img?q=${text}`)
                              },
                          ];
                          let chatbott= await chatbot.findOne({ id: 'chatbot' })
-                         await Void.sendButtonText(citel.chat, buttons, `Chatbot Status: ${chatbott.worktype} `, 'Izuku-Md', citel);
-                        citel.reply(`Chatbot Status: ${chatbott.worktype} \n*Use:* ${prefix}chatbot on\n${prefix}chatbot off`)
-                        }
+                         await Void.sendButtonText(citel.chat, buttons, `Chatbot Status: ${chatbott.worktype} `, 'Secktor-Md', citel);
+                     }
              }
-
-
+ 
+ 
          }
      )
      //---------------------------------------------------------------------------
@@ -395,7 +419,7 @@ let a = await getBuffer(`https://vihangayt.me/maker/text2img?q=${text}`)
          async(Void, citel, text,{ isCreator }) => {
              try {
                  if (!text) return citel.reply(`Send text to be encoded.`);
-
+ 
                  let textt = text || citel.quoted.text
                  let eb = await eBinary(textt);
                  citel.reply(eb);
@@ -443,7 +467,7 @@ switch (text.split(" ")[0]) {
              return citel.reply(`Successfully Enabled *${tlang().title}*`)
          }
      }
-
+  
  break
 case 'off':{
             {
@@ -481,33 +505,7 @@ let buttons = [{
 }
 }
 })   
-//-------------------------------------------------111
-cmd({
-  pattern: 'fb',
-  alias:'facebook',
-  fromMe: false,
-  catergory:'downloader',
-  react:'⚔️',
-  desc: 'Download fb video without watermark',
-},
-async (Void,citel, text,) => {
-  let url = text.split(' ')[0];
-
-  if (!text) {
-    return citel.reply('Please provide a fb video URL.');
-  }
-
-  try {
-    let {data}= await axios.get(`https://api-smd.vercel.app/api/fb?url=${encodeURIComponent(url)}`);
-
-   if(! data || !data.result ) return citel.reply("no results found")
-
-    await 
-Void.sendMessage(citel.chat, {video : { url :data.result.urls[1].url } , },)
-  } catch (error) {
-    citel.reply(`Error: ${error.message || error}`);
-  }
-});
+         
      //---------------------------------------------------------------------------
  cmd({
              pattern: "antilink",
@@ -541,65 +539,6 @@ Void.sendMessage(citel.chat, {video : { url :data.result.urls[1].url } , },)
              await Void.sendButtonText(citel.chat, buttons, `Activate antilink:Deletes Link + kick`, Void.user.name, citel);
          }
      )
-//-----------------------------------------------------
-     cmd({
-        pattern: 'ss',
-        alias :['webss' , 'fullss'],
-        category: "search",
-        desc: "Provides screenshot of given url",
-        use: '<text>',
-        filename: __filename,
-    },
-    async(Void, citel, text) => {
-let limit = 5;
-try {
-if (!text) return citel.reply("```Uhh Please, Give me Url!```");
-let urll = `https://vihangayt.me/tools/ssweb?url=${text.match(/\bhttps?:\/\/\S+/gi)[0]}&width=1280&height=720`
-let media  = await getBuffer(urll)
-return await Void.sendMessage(citel.chat ,{image : media } , {quoted:citel} )
-}
-catch (err) { return citel.reply("```Error While Fetching Snapshot```")}
-    }
-)
-cmd({
-  pattern: 'calc',
-  desc: 'A simple calculator command for basic arithmetic operations.',
-  catergory:'watsusi',
-}, (Void, citel, text) => {
-  const parts = text.split(' ');
-  if (parts.length !== 3) {
-    return citel.reply('Usage: !calc <num1> <operator> <num2>');
-  }
-  const num1 = parseFloat(parts[0]);
-  const operator = parts[1];
-  const num2 = parseFloat(parts[2]);
-  if (isNaN(num1) || isNaN(num2)) {
-    return citel.reply('Please provide valid numerical values.');
-  }
-
-  let result;
-  switch (operator) {
-    case '+':
-      result = num1 + num2;
-      break;
-    case '-':
-      result = num1 - num2;
-      break;
-    case '*':
-      result = num1 * num2;
-      break;
-    case '/':
-      result = num1 / num2;
-      break;
-    default:
-      return citel.reply('Invalid operator. Supported operators are +, -, *, and /.');
-  }
-
-  citel.reply(`Result: ${result}`);
-});
-
-
-
      //---------------------------------------------------------------------------
  cmd({ on: "body" }, async(Void, citel) => {
      if (Config.autoreaction === 'true' && citel.text.startsWith(prefix)) {
