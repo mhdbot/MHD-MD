@@ -159,7 +159,7 @@ async (Void, citel) => {
 cmd({
   pattern: 'bible',
   desc: 'Get a Bible verse',
-  category: "RELIGION",
+  category: "utility",
   react: '🧎‍♂️',
 },
 async (Void, citel, text) => {
