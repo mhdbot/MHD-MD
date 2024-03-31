@@ -18,7 +18,7 @@ const quizQuestions = [
         correctAnswer: "B"
     },
     {
-        question: "WHO IS THE OWNER OF STAR-MD?",
+        question: "WHO IS THE OWNER OF BAT-MD?",
         options: ["A. EXCEL", "B. Hexce", "C. Cexcel"],
         correctAnswer: "A"
     },
