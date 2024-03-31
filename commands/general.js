@@ -21,7 +21,7 @@ pastebin = new PastebinAPI("EMWTMkQAVfJa9kM-MRUrxd5Oku1U7pgL");
 cmd({
         pattern: "pastebin",
         desc: "To check ping",
-        category: "extra",
+        category: "tools",
         filename: __filename,
     },
     async(Void, citel) => {
@@ -133,17 +133,16 @@ cmd({
         filename: __filename,
     },
     async(Void, citel) => {
-        let { data } = await axios.get('https://api.github.com/repos/Bladeh4x/BAT-MD')
+        let { data } = await axios.get('https://api.github.com/repos/EX-BOTS/BAT-MD')
         let cap = `Hey ${citel.pushName}\n
 *⭐ Total Stars:* ${data.stargazers_count} stars
 *🍽️ Forks:* ${data.forks_count} forks
-*🍁 Repo:* https://github.com/Bladeh4x/BLADE-MD
+*🍁 Repo:* https://github.com/EXO-BOTS/BAT-MD
 *Group:* https://chat.whatsapp.com/DLniUfYVWR50sbkZDR8tBI
 *public grp:* https://chat.whatsapp.com/HTTzf69NNqWEU2v2yc7r0E
-*scan Qr:* https://secret-plateau-39898-43273a7c97e1.herokuapp.com/
-*youtube tt:* https://youtu.be/YLG9OYERa5I?si=1e5cbrtKVc8aL5BI
-*Deploy Your Own:*-
-https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FBladeh4x%2FBLADE-MD&template=https%3A%2F%2Fgithub.com%2FBladeh4x%2FBLADE-MD`
+*scan Qr:* https://bat-bot-qr-34b45414eefe.herokuapp.com
+*Chanel:* https://youtu.be/YLG9OYERa5I?si=1e5cbrtKVc8aL5BI
+*Deploy Your Own:*https://github.com/EX-BOTS/BAT-MD`
         let buttonMessaged = {
             image: { url: await botpic() },
             caption: cap,
@@ -215,15 +214,15 @@ cmd({
 //---------------------------------------------------------------------------
 cmd({
     pattern: "theme",
-    desc: "To find all themes",
+    desc: "To find the theme",
     category: "general",
     filename: __filename,
 },
 async(Void, citel,text,{isCreator}) => {
 
 if(!isCreator) return citel.reply(tlang().owner);
-let str="*All available themes in ʙʟᴀᴅᴇ-ᴍᴅ*"
-str+=`  \n1. GOJO\n2. SONIC-MD\n3. AYANOKOJI\n4. DEKU\n5. RENGOKU\n6. GENOS\n7. GABIMARU\n8. GOKU\n9. ERENJAEGER\n10. LUFFY\n11. NARUTO\n12. NEZUKO\n13. PARKER\n14. blade-md\n15. MAKIMA\n16. THOMAS\n17. PATRICK\n\n these are the themes of ʙʟᴀᴅᴇ-ᴍᴅ Userbot.\_Reply ${prefix}setvar THEME:ZEROTWO`
+let str="*Only 1 themes in BAT-MD*"
+str+=`  \n1. BAT\n\n Only one theme in BAT Userbot.\_Reply ${prefix}setvar THEME:BAT`
 return citel.reply(str)
 
 }
