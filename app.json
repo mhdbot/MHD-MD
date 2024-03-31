@@ -89,7 +89,7 @@
     "value": "mongodb+srv://Maher:Zubair@sigma-male.ggwx4gc.mongodb.net/?retryWrites=true&w=majority"
   },
     "THEME": {
-    "description": "Put the theme name you want to use. Avilable themes are GOJO,STAR,NEZUKO,LUFFY,GOKU and many more..",
+    "description": "DON'T CHANGE ONLY ONE THEME AVAILABLE",
      "value": "BAT"
   },
     "WORKTYPE": {
