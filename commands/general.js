@@ -22,7 +22,7 @@ const API_KEY = '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'
 cmd({
         pattern: "chat",
         desc: "chat with an AI",
-        category: "general",
+        category: "AI",
         use: '<Hii>',
         filename: __filename,
     },
