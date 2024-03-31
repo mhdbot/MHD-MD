@@ -14,7 +14,7 @@ const {cmd,tlang} = require('../lib')
 cmd({
         pattern: "restart",
         desc: "To restart bot",
-        category: "tool",
+        category: "tools",
         filename: __filename
     },
     async(Void, citel,text,{ isCreator }) => {
