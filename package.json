@@ -1,13 +1,13 @@
 {
-  "name": "BAT-MD",
+  "name": "STAR-MD",
   "version": "0.0.7",
-  "description": "Multi device whatsapp bot By EXCEL.",
+  "description": "Multi device whatsapp bot by Excel.",
   "main": "lib/client.js",
   "type": "commonjs",
   "license": "GPL-3.0",
   "scripts": {
-    "start": "pm2 start lib/client.js --deep-monitoring --attach --name BAT",
-    "stop": "pm2 stop BAT"
+    "start": "pm2 start lib/client.js --deep-monitoring --attach --name STAR",
+    "stop": "pm2 stop STAR"
   },
   "author": "Xcelsama",
   "dependencies": {
@@ -17,13 +17,11 @@
     "aptoide-scraper":"^1.0.1",
     "@shineiichijo/marika": "^2.0.3",
     "anime-character-random": "latest",
-    "api-dylux": "latest",
     "async-g-i-s": "^1.4.0",
     "awesome-phonenumber": "^3.3.0",
     "axios": "^0.24.0",
     "cache-manager": "^5.3.0",
     "chalk": "^4.1.2",
-    "chatgpt-scraper": "latest",
     "cheerio": "^1.0.0-rc.10",
     "child_process": "^1.0.2",
     "crypto-js": "latest",
@@ -37,12 +35,10 @@
     "fluent-ffmpeg": "^2.1.2",
     "form-data": "^4.0.0",
     "fs-extra": "^10.1.0",
-    "getscreenshot.js": "latest",
     "google-it": "^1.6.2",
     "google-tts-api": "^2.0.2",
     "heroku-client": "3.1.0",
     "human-readable": "^0.2.1",
-    "ios-news": "^1.0.0",
     "jimp": "^0.16.1",
     "jsdom": "^16.4.0",
     "koyeb-api-client": "latest",
@@ -59,14 +55,10 @@
     "path": "^0.12.7",
     "pm2": "^5.3.1",
     "request": "^2.88.2",
-    "Sachibot-Spotifydl": "github:SACHIBOT/Sachibot-Spotifydl#master",
     "secktor-pack": "latest",
-    "simple-git": "^3.16.1",
-    "sirasa-news": "latest",
-    "soundcloud-downloader": "^1.0.0",
     "spotifydl-x": "^0.3.0",
-    "tech-news-scraper": "latest",
-    "tiktokdl":"0.0.4",
+    "simple-git": "^3.16.1",
+    "soundcloud-downloader": "^1.0.0",
     "tiktok-scraper": "^1.4.36",
     "translatte": "^3.0.1",
     "util": "^0.12.4",
@@ -83,10 +75,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EX-BOTS/BAT-MD.git"
+    "url": "git+https://github.com/Xcelsama/STAR-MD.git"
   },
   "bugs": {
-    "url": "https://github.com/EX-BOTS/BAT-MD/issues"
+    "url": "https://github.com/Xcelsama/STAR-MD/issues"
   },
-  "homepage": "https://github.com/EX-BOTS/BAT-MD#readme"
+  "homepage": "https://github.com/Xcelsama/STAR-MD#readme"
 }
