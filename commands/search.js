@@ -58,27 +58,6 @@ cmd({
         }
     )
     //---------------------------------------------------------------------------
-Module_Exports({
-            pattern: 'ss',
-            alias :['webss' , 'fullss'], 
-            desc: "Searches Image on Google",
-            use: '',
-            kingpath: __filename,
-        },
-        async(Void, citel, text) => {
-let limit = 5;
- try {
-    if (!text) return citel.reply("```Uhh Please, Give me Url!```");
-    var url = text;
-    let urll = `https://s.vercel.app/api?url=${url.match(/\bhttps?:\/\/\S+/gi)[0]}&width=1280&height=720`
-    let media  = await getBuffer(urll)
-    return await Void.sendMessage(citel.chat ,{image : media } , {quoted:citel} )
- }
-catch (err) { return citel.reply("```Error While Fetching Snapshot```")}
-        }
-    )
-
-//---------------------------------------------------------------------------
 cmd({
             pattern: "weather",
             category: "search",
@@ -92,7 +71,7 @@ cmd({
                 `https://api.openweathermap.org/data/2.5/weather?q=${text}&units=metric&appid=060a6bcfa19809c2cd4d97a212b19273&language=en`
             );
             let textw = "";
-            textw += `🦇ʙᴀᴛ ᴡᴇᴀᴛʜᴇʀ ʀᴇᴘᴏʀᴛ ᴏғ  ${text}*\n\n`;
+            textw += `*🌟 ʙᴀᴛ ᴡᴇᴀᴛʜᴇʀ ʀᴇᴘᴏʀᴛ ᴏғ  ${text}*\n\n`;
             textw += `*Weather:-* ${wdata.data.weather[0].main}\n`;
             textw += `*Description:-* ${wdata.data.weather[0].description}\n`;
             textw += `*Avg Temp:-* ${wdata.data.main.temp}\n`;
@@ -158,7 +137,7 @@ cmd({
         if (!text) return citel.reply(`give me a query\n*Example : .google Who is Suhail Tech.*`);
         let google = require('google-it');
         google({ 'query': text}).then(res => {
-            let msg= `ʙᴀᴛ🔍ɢᴏᴏɢʟᴇ sᴇᴀʀᴄʜ  : ${text} \n\n`;
+            let msg= `ʙᴀᴛ-ɢᴏᴏɢʟᴇ sᴇᴀʀᴄʜ  : ${text} \n\n`;
             for (let g of res) {
                 msg+= `📌 Title : ${g.title}\n`;
                 msg+= `⚔️  Description : ${g.snippet}\n`;
@@ -205,7 +184,7 @@ cmd({
             let anu = await fetchJson('https://raw.githubusercontent.com/iamriz7/kopel_/main/kopel.json')
             let random = anu[Math.floor(Math.random() * anu.length)]
             Void.sendMessage(citel.chat, { image: { url: random.male }, caption: `ʙᴀᴛ ɪᴍᴀɢᴇ ᴅᴏᴡɴʟᴏᴅᴇʀ` }, { quoted: citel })
-            Void.sendMessage(citel.chat, { image: { url: random.female }, caption: `ʙᴀᴛ ɪᴍᴀɢᴇ ᴅᴏᴡɴʟᴏᴅᴇʀ` }, { quoted: citel })
+            Void.sendMessage(citel.chat, { image: { url: random.female }, caption: `sᴛᴀʀ-ᴍᴅ⁹⁹⁹ ɪᴍᴀɢᴇ ᴅᴏᴡɴʟᴏᴅᴇʀ` }, { quoted: citel })
         }
     )
     //---------------------------------------------------------------------------
