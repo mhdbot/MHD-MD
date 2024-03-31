@@ -16,7 +16,7 @@ const { cmd } = require('../lib')
 cmd({
             pattern: "question",
             desc: "Random Question.",
-            category: "fun🎮",
+            category: "fun",
             filename: __filename,
         },
         async(Void, citel, text) => {
