@@ -185,11 +185,11 @@ cmd({
 *⭐ TOTᗩᒪ ՏTᗩᖇՏ:* ${data.stargazers_count} stars
 *🍽️ ᖴOᖇKՏ:* ${data.forks_count} forks
 *🍁 ᖇᗴᑭO:*https://github.com/EX-BOTS/BAT-MD
-*⚔️ᘜᖇOᑌᑭ:* 
+*⚔️ᘜᖇOᑌᑭ:* https://chat.whatsapp.com/Lq8yd8FRqEZ5pc3oXznliR
 *📡ᑭᑌᗷᒪIᑕ ᘜᖇOᑌᑭ:* https://chat.whatsapp.com/EmP3syvou18HrZk6R6nTAK
 *🔍Տᑕᗩᑎ ᑫᖇ:* https://bat-bot-qr-34b45414eefe.herokuapp.com/
 *💻ᑕᕼᗩᑎᑎᗴᒪ ᒪIᑎK:* https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m
-*⚙️DᗴᑭloY YOᑌᖇ Oᗯᑎ:*-https://dashboard.heroku.com/new?template=https://github.com/Xcelsama/STAR-MD`
+*⚙️DᗴᑭloY YOᑌᖇ Oᗯᑎ:*-https://dashboard.heroku.com/new?template=https://github.com/EX-BOTS/BAT-MD`
         let buttonMessaged = {
             image: { url: await botpic() },
             caption: cap,
@@ -269,8 +269,8 @@ cmd({
 async(Void, citel,text,{isCreator}) => {
 
 if(!isCreator) return citel.reply(tlang().owner);
-let str="*All available themes*"
-str+=`  \n1. GOJO\n2. SONIC-MD\n3. AYANOKOJI\n4. DEKU\n5. RENGOKU\n6. GENOS\n7. GABIMARU\n8. STAR\n9. ERENJAEGER\n10. LUFFY\n11. NARUTO\n12. NEZUKO\n13. PARKER\n14. GOKU\n15. MAKIMA\n16. THOMAS\n17. PATRICK\n\n these are the themes of Star Userbot.\_Reply ${prefix}setvar THEME:ZEROTWO`
+let str="*Only 1 available theme*"
+str+=`  \n1. BAT\n\n these are the themes of BAT-bot.\_Reply ${prefix}setvar THEME:BAT`
 return citel.reply(str)
 
 }
