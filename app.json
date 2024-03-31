@@ -27,8 +27,7 @@
       },
     "HEROKU_API_KEY": {
     "description": "Put HEROKU API KEY",
-     "required" :true
-     "value" :"8cf895b5-dbdf-4d5d-b2a1-b31319db8aa6"
+     "required" :true "value" :"8cf895b5-dbdf-4d5d-b2a1-b31319db8aa6"
     },
   "HEROKU_APP_NAME": {
     "description": "Put HEROKU APP NAME same as above.",
