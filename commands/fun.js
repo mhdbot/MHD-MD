@@ -35,7 +35,75 @@ cmd({
         }
     )
     //---------------------------------------------------------------------------
-cmd({
+Module_Exports({
+            pattern: "truthz",
+            desc: "truth and dare(truth game.).",
+            category: "games",
+            filename: __filename,
+        },
+        async(Void, citel, text) => {
+            return await citel.reply(`${truth()}`);
+        }
+    )
+    //---------------------------------------------------------------------------
+Module_Exports({
+            pattern: "dirtydare",
+            desc: "truth and dare(dare game.).",
+            category: "games",
+            filename: __filename,
+        },
+        async(Void, citel, text) => {
+            return await citel.reply(`${dare()}`);
+        }
+    )
+//--------------------------------------------------------------------------------
+Module_Exports({
+            pattern: "joke",
+            desc: "Sends Joke in chat.",
+            category: "fun",
+            filename: __filename,
+        },
+        async(Void, citel, text) => { 
+
+const response =await  fetch('https://official-joke-api.appspot.com/random_joke');
+  const joke= await response.json();
+citel.reply( `*𝙱𝙰𝚃-𝙹𝙾𝙺𝙴:* ${joke.setup}\n*𝙿𝚄𝙽𝙲𝙷𝙻𝙸𝙽𝙴:*  ${joke.punchline}`);
+
+})
+//---------------------------------------------------------------------------
+Module_Exports({
+            pattern: "joke2",
+            desc: "Sends Joke in chat.",
+            category: "fun",
+            filename: __filename,
+        },
+        async(Void, citel, text) => { 
+ 
+         fetch('https://v2.jokeapi.dev/joke/Any?type=single')
+         .then(response => response.json())
+         .then(data => {
+         citel.reply(`*𝙹𝙾𝙺𝙴:* ${data.joke}`); 
+  })
+  .catch(error => {
+     return citel.reply ('Error fetching joke:' + error);
+  });
+        }
+    )
+
+//---------------------------------------------------------------------------
+Module_Exports({
+        pattern: "fact",
+        desc: "Sends fact in chat.",
+        category: "fun",
+        filename: __filename,
+    },
+    async(Void, citel, text) => {
+        const { data } = await axios.get(`https://nekos.life/api/v2/fact`)
+        return citel.reply(`*𝙵𝙰𝙲𝚃:* ${data.fact}`)   
+    }
+
+)
+    //---------------------------------------------------------------------------
             pattern: "dare",
             desc: "truth and dare(dare game.).",
             category: "fun",
