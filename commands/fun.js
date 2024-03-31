@@ -34,17 +34,7 @@ cmd({
             return await citel.reply(`${truth()}`);
         }
     )
-    //---------------------------------------------------------------------------
-Module_Exports({
-            pattern: "truthz",
-            desc: "truth and dare(truth game.).",
-            category: "games",
-            filename: __filename,
-        },
-        async(Void, citel, text) => {
-            return await citel.reply(`${truth()}`);
-        }
-    )
+    
     //---------------------------------------------------------------------------
 Module_Exports({
             pattern: "dirtydare",
