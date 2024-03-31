@@ -11,7 +11,7 @@ cmd({
 
             pattern: "settings",           
             desc: "(setting list).",
-            category: "_help",
+            category: "tools",
             react: "⚙️",
             filename: __filename,
             use: '<text>',
@@ -40,7 +40,7 @@ cmd({
             ];
             let buttonMessage = {
                 image: {
-                    url: 'https://telegra.ph/file/a6b9bbde7feaa92c69c7b.jpg',
+                    url: 'https://telegra.ph/file/2692bfbd409f7dae2e79b.jpg',
                 },
 
                 caption: `
