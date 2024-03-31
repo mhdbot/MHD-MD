@@ -1,13 +1,13 @@
 {
-  "name": "STAR-MD",
+  "name": "BAT-MD",
   "version": "0.0.7",
   "description": "Multi device whatsapp bot by Excel.",
   "main": "lib/client.js",
   "type": "commonjs",
   "license": "GPL-3.0",
   "scripts": {
-    "start": "pm2 start lib/client.js --deep-monitoring --attach --name STAR",
-    "stop": "pm2 stop STAR"
+    "start": "pm2 start lib/client.js --deep-monitoring --attach --name BAT",
+    "stop": "pm2 stop BAT"
   },
   "author": "Xcelsama",
   "dependencies": {
@@ -56,7 +56,6 @@
     "pm2": "^5.3.1",
     "request": "^2.88.2",
     "secktor-pack": "latest",
-    "spotifydl-x": "^0.3.0",
     "simple-git": "^3.16.1",
     "soundcloud-downloader": "^1.0.0",
     "tiktok-scraper": "^1.4.36",
@@ -75,10 +74,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Xcelsama/STAR-MD.git"
+    "url": "git+https://github.com/EX-BOTS/BAT-MD.git"
   },
   "bugs": {
-    "url": "https://github.com/Xcelsama/STAR-MD/issues"
+    "url": "https://github.com/EX-BOTS/BAT-MD/issues"
   },
-  "homepage": "https://github.com/Xcelsama/STAR-MD#readme"
+  "homepage": "https://github.com/EX-BOTS/BAT-MD#readme"
 }
