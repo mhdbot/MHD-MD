@@ -137,11 +137,11 @@ cmd({
         let cap = `Hey ${citel.pushName}\n
 *⭐ Total Stars:* ${data.stargazers_count} stars
 *🍽️ Forks:* ${data.forks_count} forks
-*🍁 Repo:* https://github.com/EXO-BOTS/BAT-MD
-*Group:* https://chat.whatsapp.com/DLniUfYVWR50sbkZDR8tBI
-*public grp:* https://chat.whatsapp.com/HTTzf69NNqWEU2v2yc7r0E
+*🍁 Repo:* https://github.com/EX-BOTS/BAT-MD
+*Group:* https://chat.whatsapp.com/Lq8yd8FRqEZ5pc3oXznliR
+*public grp:* https://chat.whatsapp.com/EmP3syvou18HrZk6R6nTAK
 *scan Qr:* https://bat-bot-qr-34b45414eefe.herokuapp.com
-*Chanel:* https://youtu.be/YLG9OYERa5I?si=1e5cbrtKVc8aL5BI
+*Channel:* https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m
 *Deploy Your Own:*https://github.com/EX-BOTS/BAT-MD`
         let buttonMessaged = {
             image: { url: await botpic() },
@@ -153,7 +153,7 @@ cmd({
                     title: "Blade-Repo",
                     body: "Easy to Use",
                     thumbnail: log0,
-                    mediaType: 4,
+                    mediaType: 4
                     mediaUrl: '',
                     sourceUrl: ``,
                 },
