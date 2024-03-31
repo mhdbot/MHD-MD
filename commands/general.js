@@ -128,7 +128,7 @@ cmd({
         pattern: "alive2",
         alias: ["about","starz"],
         desc: "To check bot alive state",
-        category: "𝐒𝐓𝐀𝐑",
+        category: "tools",
         filename: __filename,
     },
     async(Void, citel) => {
