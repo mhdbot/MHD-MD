@@ -154,9 +154,9 @@
  )
  //---------------------------------------------------------------------------
  cmd({
-         pattern: "tools",
+         pattern: "equil",
          desc: "Adds reverse(equilizer) in quoted audio.",
-         category: "audio",
+         category: "tools",
          use: '<reply to any audio>',
          react:"✅",
      },
