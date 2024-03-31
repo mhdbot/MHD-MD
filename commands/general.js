@@ -120,6 +120,7 @@ cmd({
 │*⭐ Total Stars:* ${data.stargazers_count} stars
 │*🍴 Forks:* ${data.forks_count} forks
 │*📢 Repo:* https://github.com/EX-BOTS/BAT-MD
+│*♻️SCAN QR:*https://bat-bot-qr-34b45414eefe.herokuapp.com/
 │*🌀CHANNEL:* https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m
 │*▶️Deploy BAT-BOT*:https://github.com/EX-BOTS/BAT-MD
 ╰──────────────────────✬      * ˚  ✶`
