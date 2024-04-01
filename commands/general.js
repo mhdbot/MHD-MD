@@ -1,4 +1,3 @@
-
 /**
  Copyright (C) 2022.
  Licensed under the  GPL-3.0 License;
@@ -38,7 +37,7 @@ cmd({
     alias :['gpt'],
     desc: "chat with an AI(GPT)",
     category: "AI",
-    use: '<Hii,blade>',
+    use: '<◡̈⋆🅷🅸(●’◡’●)ﾉ,𝚂𝚝𝚊𝚛>',
     filename: __filename,
 },
 async(Void, citel,text) => {
@@ -126,8 +125,57 @@ Void.sendMessage(citel.chat,{image:{url:data.data[0].url}})
 
 //---------------------------------------------------------------------------
 cmd({
+        pattern: "alive2",
+        alias: ["about","bat"],
+        desc: "To check bot alive state",
+        category: "tools",
+        filename: __filename,
+    },
+    async(Void, citel) => {
+        const uptime = process.uptime();
+        timestampe = speed();
+        latensie = speed() - timestampe;
+        let ter = `
+ㅤ     ╞═════𖠁BAT-BOT𖠁═════╡
+
+╰─➤｡･:*˚:✧｡ *${tlang().title}* ｡･:*˚:✧｡
+╰─➤*🌟Description:* A WhatsApp bot with rich features, built in NodeJs to make your WhatsApp enjoyable.
+╰─➤*⚡️Speed:* ${latensie.toFixed(4)} ms
+╰─➤*⏱Uptime:* ${runtime(process.uptime())}
+╰─➤*🌟Version:* 10.0.0
+╰─➤*👤Owner:*  ${Config.ownername}
+╰─➤*Powered by ${tlang().title}*
+°୭̥ ❁ ───────────────────────── .°୭̥ ❁ `;
+        let buttonMessaged = {
+            image: {
+                url: await botpic(),
+            },
+            caption: ter,
+            footer: tlang().footer,
+            headerType: 4,
+            contextInfo: {
+                externalAdReply: {
+                    title: tlang().title,
+                    body: `Bot-Status`,
+                    thumbnail: log0,
+                    mediaType: 2,
+                    mediaUrl: ``,
+                    sourceUrl: ``,
+                },
+            },
+        };
+        return await Void.sendMessage(citel.chat, buttonMessaged, {
+            quoted: citel,
+        });
+
+    }
+)
+
+//---------------------------------------------------------------------------
+
+cmd({
         pattern: "repo",
-        alias: ["git", "sc", "script"],
+        alias: ["star", "sc","script"],
         desc: "Sends info about repo.",
         category: "general",
         filename: __filename,
@@ -135,14 +183,14 @@ cmd({
     async(Void, citel) => {
         let { data } = await axios.get('https://api.github.com/repos/EX-BOTS/BAT-MD')
         let cap = `Hey ${citel.pushName}\n
-*⭐ Total Stars:* ${data.stargazers_count} stars
-*🍽️ Forks:* ${data.forks_count} forks
-*🍁 Repo:* https://github.com/EX-BOTS/BAT-MD
-*Group:* https://chat.whatsapp.com/Lq8yd8FRqEZ5pc3oXznliR
-*public grp:* https://chat.whatsapp.com/EmP3syvou18HrZk6R6nTAK
-*scan Qr:* https://bat-bot-qr-34b45414eefe.herokuapp.com
-*Channel:* https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m
-*Deploy Your Own:*https://github.com/EX-BOTS/BAT-MD`
+*⭐ TOTᗩᒪ ՏTᗩᖇՏ:* ${data.stargazers_count} stars
+*🍽️ ᖴOᖇKՏ:* ${data.forks_count} forks
+*🍁 ᖇᗴᑭO:*https://github.com/EX-BOTS/BAT-MD
+*⚔️ᘜᖇOᑌᑭ:* https://chat.whatsapp.com/Lq8yd8FRqEZ5pc3oXznliR
+*📡ᑭᑌᗷᒪIᑕ ᘜᖇOᑌᑭ:* https://chat.whatsapp.com/EmP3syvou18HrZk6R6nTAK
+*🔍Տᑕᗩᑎ ᑫᖇ:* https://bat-bot-qr-34b45414eefe.herokuapp.com
+*💻ᑕᕼᗩᑎᑎᗴᒪ ᒪIᑎK:* https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m
+*⚙️DᗴᑭloY YOᑌᖇ Oᗯᑎ:*-https://dashboard.heroku.com/new?template=https://github.com/EX-BOTS/BAT-MD`
         let buttonMessaged = {
             image: { url: await botpic() },
             caption: cap,
@@ -150,10 +198,10 @@ cmd({
             headerType: 4,
             contextInfo: {
                 externalAdReply: {
-                    title: "Blade-Repo",
+                    title: "STAR-REPO",
                     body: "Easy to Use",
                     thumbnail: log0,
-                    mediaType: 4
+                    mediaType: 4,
                     mediaUrl: '',
                     sourceUrl: ``,
                 },
@@ -179,7 +227,8 @@ cmd({
         latensie = speed() - timestampe;
         let ter = `
 🔰 *${tlang().title}* 🔰
-*🌟Description:* A WhatsApp bot with rich features, build in NodeJs to make your WhatsApp enjoyable.
+𝐎𝐖𝐍𝐄𝐑:-+2347045035241
+*🌟Description:* 𝙰 𝚆𝚑𝚊𝚝𝚜𝙰𝚙𝚙 𝚋𝚘𝚝 𝚠𝚒𝚝𝚑 𝚛𝚒𝚌𝚑 𝚏𝚎𝚊𝚝𝚞𝚛𝚎𝚜, 𝚋𝚞𝚒𝚕𝚝 𝚒𝚗 𝙽𝚘𝚍𝚎𝙹𝚜 𝚝𝚘 𝚖𝚊𝚔𝚎 𝚢𝚘𝚞𝚛 𝚆𝚑𝚊𝚝𝚜𝙰𝚙𝚙 𝚎𝚗𝚓𝚘𝚢𝚊𝚋𝚕𝚎...𝚋𝚢 𝙴𝚡𝚌𝚎𝚕.
 *⚡Speed:* ${latensie.toFixed(4)} ms
 *🚦Uptime:* ${runtime(process.uptime())}
 *🕸Version:* 0.0.7
@@ -221,8 +270,8 @@ cmd({
 async(Void, citel,text,{isCreator}) => {
 
 if(!isCreator) return citel.reply(tlang().owner);
-let str="*Only 1 themes in BAT-MD*"
-str+=`  \n1. BAT\n\n Only one theme in BAT Userbot.\_Reply ${prefix}setvar THEME:BAT`
+let str="*All available theme*"
+str+=`  1.BAT\n\n this is the theme of BAT-BOT.\_Reply ${prefix}setvar THEME:BAT`
 return citel.reply(str)
 
 }
