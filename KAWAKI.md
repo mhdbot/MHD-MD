@@ -1,7 +1,7 @@
 
 
 ##  
-[![TEST-MD](https://i.ibb.co/TRjdhyd/tumblr-na294unfma1rdzgejo1-500.gif)](https://wa.me/2347045035241)
+[![TEST-MD](https://i.ibb.co/TRjdhyd/tumblr-na294unfma1rdzgejo1-500.gif)](https://wa.me/22781289418)
 <h1 align="center"> 💫TEST-MD❄️
 </p>
   
@@ -75,7 +75,7 @@ If You don't have a account in Heroku. Create a account.
 
 
 
- [![BAT-MD](https://i.ibb.co/ssWTfH4/89c8d44eae2dd5f00cd18989c95387096bcf64e8.gif)](https://wa.me/2347045035241)
+ [![TEST-MD](https://i.ibb.co/ssWTfH4/89c8d44eae2dd5f00cd18989c95387096bcf64e8.gif)](https://wa.me/22781289418)
 <h1 align="center"> ©Ex-bots 2024
 </p>
   
