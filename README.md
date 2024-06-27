@@ -1,7 +1,8 @@
 
 
-##
-[![TEST-MD](https://telegra.ph/file/e0c074d000cb09728be62.jpg)](https://wa.me/22781289418)
+##  
+
+[![TEST-MD](https://telegra.ph/file/a845227899416ca499071.jpg)](https://wa.me/22781289418)
 
 <h1 align="center"> 💫KAWAKI-MD❄️
 
@@ -29,9 +30,9 @@
 
 ❏FORK THE REPOSITORY 
 
-  <a href="https://https://github.com/mhdbot/MHD-MD.git/fork" target="_blank">
+  <a href=https://github.com/mhdbot/MHD-MD/fork" target="_blank">
 
-  <img src="https://img.shields.io/badge/FORK BAT-black?style=for-the-badge&logo=render" alt="Authenticate With WhatsApp" width="170" height="34">
+  <img src="https://img.shields.io/badge/FORK KAWAKI-black?style=for-the-badge&logo=render" alt="Authenticate With WhatsApp" width="170" height="34">
 
 </a>
 
@@ -109,7 +110,7 @@ Now Deploy
 
     <br>
 
-<a href="https://replit.com/@HopeAmadi/BAT-MD?s=app" target="_blank"><img alt="DEPLOY" src="https://img.shields.io/badge/DEPLOY-black?color=black&style=for-the-badge&logo=Replit" width="96.35" height="28"></a>
+<a href="https://replit.com/@HopeAmadi/KAWAKI-MD?s=app" target="_blank"><img alt="DEPLOY" src="https://img.shields.io/badge/DEPLOY-black?color=black&style=for-the-badge&logo=Replit" width="96.35" height="28"></a>
 
 
 
@@ -131,7 +132,7 @@ If You don't have a account in Heroku. Create a account.
 
 
 
-<a href='https://dashboard.heroku.com/new?template=https://https://github.com/mhdbot/MHD-MD.git' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/>
+<a href='https://dashboard.heroku.com/new?template=https:https://github.com/mhdbot/MHD-MD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/>
 
 
 
@@ -158,4 +159,3 @@ If You don't have a account in Heroku. Create a account.
 <h1 align="center"> ©Ex-bots 2024
 
 </p>
-
