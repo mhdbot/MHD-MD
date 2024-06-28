@@ -7,7 +7,7 @@
   
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=THANKS FOR CHOOSING +KAWAKI-MD;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+KAWAKI+ZÉRO SOUCIS;RELEASED+22.2.2024" alt="Typing SVG" /></a>
   </p>
-    <img alt="FLASH-MD" width="700" height="300" src="https://telegra.ph/file/a845227899416ca499071.jpg">
+    <img alt="KAWAKI-MD" width="70000" height="30000" src="https://telegra.ph/file/a845227899416ca499071.jpg">
 <p align="center">
 <p align="center">
 <a href="https://github.com/franceking1/Flash-Md"><img title="Author" src="https://img.shields.io/badge/FLASH_MD-black?style=for-the-badge&logo=github"></a>
@@ -22,9 +22,9 @@
 
 #### SETUP 
 
-***1.`First STAR 🌟 This Repo ` And Then [`FORK`](https://github.com/franceking1/Flash-Md/fork) It***
+***1.`First STAR 🌟 This Repo ` And Then [`FORK`](https://github.com/mhdbot/MHD-MD/blob/main/README.md) It***
 
-***2.`Get Session ID` by [`SCANING QR`](https://scan-flash-md-ik5n.onrender.com) OR [`PAIRING CODE`](https://the-flash-md-sessions.onrender.com/pair)***
+***2.`Get Session ID` by [`POUR SCANNÉ QR`](https://scan-flash-md-ik5n.onrender.com) OR [`POUR LE PAIRING CODE`](https://the-flash-md-sessions.onrender.com/pair)***
 
 *-Copy The Session ID to paste it in Heroku*
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
